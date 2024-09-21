@@ -1,0 +1,183 @@
+body {
+  background-image: url("fn8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  footer   */
+}
+body img.logo {
+  height: 55%;
+  width: auto;
+}
+body p.uno {
+  font-family: this cafe;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+body body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #78d149;
+  width: 100%;
+  height: 100vh;
+}
+body .wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+body button {
+  width: 290px;
+  height: 100px;
+  background: linear-gradient(to left top, #fbaa4e 50%, #fbaa4e 50%);
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  border-style: none;
+  color: #ffffff;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-family: this cafe;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+body button:hover {
+  background: linear-gradient(to left top, #f77561 50%, #f77561 50%);
+  font-family: this cafe;
+  color: #fac2c2;
+}
+body button span {
+  position: absolute;
+  display: block;
+}
+body button span:nth-child(1) {
+  height: 3px;
+  width: 200px;
+  top: 0px;
+  left: -200px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #ffffff);
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes span1 {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+body button span:nth-child(2) {
+  height: 70px;
+  width: 3px;
+  top: -70px;
+  right: 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fac2c2);
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span2 2s linear infinite;
+  animation-delay: 2s;
+}
+@keyframes span2 {
+  0% {
+    top: -70px;
+  }
+  100% {
+    top: 70px;
+  }
+}
+body button span:nth-child(3) {
+  height: 3px;
+  width: 200px;
+  right: -200px;
+  bottom: 0px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #ffffff);
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  animation: span3 2s linear infinite;
+  animation-delay: 3s;
+}
+@keyframes span3 {
+  0% {
+    right: -200px;
+  }
+  100% {
+    right: 200px;
+  }
+}
+body button span:nth-child(4) {
+  height: 70px;
+  width: 3px;
+  bottom: -70px;
+  left: 0px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), #fac2c2);
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  animation: span4 2s linear infinite;
+  animation-delay: 4s;
+}
+@keyframes span4 {
+  0% {
+    bottom: -70px;
+  }
+  100% {
+    bottom: 70px;
+  }
+}
+body button:hover {
+  transition: all 0.5s;
+  transform: rotate(-3deg) scale(1.1);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+body button:hover span {
+  animation-play-state: paused;
+}
+body footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+body footer p {
+  margin: 10px 0;
+  font-family: bobaland;
+}
+body footer .fa-heart {
+  color: red;
+}
+body footer .fa-dev {
+  color: #fff;
+}
+body footer .fa-twitter-square {
+  color: #1da0f1;
+}
+body footer .fa-instagram {
+  color: #f0007c;
+}
+body fotter .fa-linkedin {
+  color: #0073b1;
+}
+body footer .fa-codepen {
+  color: #fff;
+}
+body footer a {
+  color: #3c97bf;
+  text-decoration: none;
+  margin-right: 5px;
+}/*# sourceMappingURL=style.css.map */

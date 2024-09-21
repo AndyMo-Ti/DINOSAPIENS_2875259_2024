@@ -1,0 +1,83 @@
+body{
+
+
+    button.editar{
+      background-color: white;
+      font-size: 38px;
+      border-radius: 15px;
+      border-color: white;
+
+    }
+    h3.inicio{
+      font-family: pixeled;
+      color: white;
+    }
+      nav.navbar{
+        background-color: #ffffff22;
+      }
+
+    h2.usuario{
+      color: white;
+      font-size: 80px;
+      font-family: this cafe;
+
+      position: relative;
+      top: -20px; left: 605px;
+    }
+
+    button.regreso{
+      position: absolute;
+      top: 10px; left: 629px;
+      
+      background-color: #c2fbd7;
+      border-radius: 100px;
+      box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+      color: green;
+      cursor: pointer;
+      display: inline-block;
+      font-family: pixeled;
+      padding: 7px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      font-size: 12px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      }
+        
+}
+    .pulse:hover,
+    .pulse:focus {
+    -webkit-animation: pulse 1s;
+            animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
+    }
+    @-webkit-keyframes pulse {
+        0% {
+        box-shadow: 0 0 0 0 var(--hover);
+        }
+    }
+    
+    @keyframes pulse {
+        0% {
+        box-shadow: 0 0 0 0 var(--hover);
+        }
+    }
+    .pulse {
+        --color: #ef6eae;
+        --hover: #ef8f6e;
+    }
+    button {
+        color: var(--color);
+        transition: 0.25s;
+      }
+      button:hover, button:focus {
+        border-color: var(--hover);
+        color: #fff;
+      }
+    div.color{
+        background-color: #ffffff00;
+        
+    }

@@ -1,0 +1,72 @@
+body button.editar {
+  background-color: white;
+  font-size: 38px;
+  border-radius: 15px;
+  border-color: white;
+}
+body h3.inicio {
+  font-family: pixeled;
+  color: white;
+}
+body nav.navbar {
+  background-color: rgba(255, 255, 255, 0.1333333333);
+}
+body h2.usuario {
+  color: white;
+  font-size: 80px;
+  font-family: this cafe;
+  position: relative;
+  top: -20px;
+  left: 605px;
+}
+body button.regreso {
+  position: absolute;
+  top: 10px;
+  left: 629px;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: pixeled;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 12px;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+div.color {
+  background-color: rgba(255, 255, 255, 0);
+}/*# sourceMappingURL=usuario.css.map */

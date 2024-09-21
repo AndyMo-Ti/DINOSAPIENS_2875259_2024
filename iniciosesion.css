@@ -1,0 +1,70 @@
+body {
+  background: aquamarine;
+  background-image: url("fn1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body h1.titulo {
+  font-size: 90;
+  font-family: this cafe;
+  color: black;
+  position: absolute;
+  top: 50px;
+  left: 325px;
+}
+body button.regreso {
+  position: absolute;
+  top: 775px;
+  left: 125px;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: pixeled;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+body :hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+div.tabla1 {
+  font-family: pixeled;
+  width: 490px;
+  height: 575px;
+  font-size: 10px;
+  position: relative;
+  top: 70px;
+  left: 510px;
+}
+
+div.tabla2 {
+  font-family: pixeled;
+  width: 450px;
+  height: 575px;
+  font-size: 10px;
+  position: absolute;
+  top: 165px;
+  left: 10px;
+}
+
+div.tabla3 {
+  font-family: pixeled;
+  width: 450px;
+  height: 375px;
+  font-size: 10px;
+  position: absolute;
+  top: 165px;
+  left: 1070px;
+}/*# sourceMappingURL=iniciosesion.css.map */
